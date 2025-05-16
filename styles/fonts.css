@@ -1,0 +1,42 @@
+@charset "utf-8";
+
+/*Fonts Collection*/
+
+/* Syne Mono
+  font-family: "Syne Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+*/
+@import url('https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap');
+
+/* Space Grotesk
+  font-family: "Space Grotesk", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+*/
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+
+/* Inter
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+*/
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+/*Slabo
+  font-family: "Slabo 13px", serif;
+  font-weight: 400;
+  font-style: normal;
+*/
+@import url('https://fonts.googleapis.com/css2?family=Slabo+13px&display=swap');
+
+
+:root{
+    --main:"Syne Mono", monospace;
+    --alt:"Space Grotesk", sans-serif;
+    --trio:  font-family: "Inter", sans-serif;
+    --slab:"Slabo 13px", serif;
+}
+

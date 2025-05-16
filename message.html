@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<!--
+Ava Ludwig 
+Final Assignment
+5/14/25
+-->
+
+<html lang="en">
+  <head>
+    <!-- Meta Tags-->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ava_MyPortfolio</title>
+    <!--Link to Styles-->
+    <link rel="stylesheet" href="styles/collect.css" />
+  </head>
+  <body>
+    <!-- BG Video -->
+    <video autoplay loop muted playsinline id="video">
+      <source src="media/bg.mp4" type="video/mp4" />
+    </video>
+    <!--Start NavBar-->
+    <nav class="navbar">
+      <ul>
+        <li><a href="index.html">_Home</a></li>
+        <li><a href="bio.html">_Bio</a></li>
+        <li><a href="portfolio.html">_MyPortfolio</a></li>
+        <li><a href="message.html">_Message</a></li>
+      </ul>
+    </nav>
+    <!--End NavBar-->
+    <header></header>
+
+    <!--Start Container-->
+    <div class="container">
+      <h1 class="title">Message Me!</h1>
+      <p class="msg">I'll get back to you as soon as I can! &lt;3</p>
+      <main>
+        <section class="message-board">
+          <form
+            class="message-form"
+            action="https://formspree.io/f/xeognqjy"
+            method="POST"
+          >
+            <label for="name">_Name</label>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              required
+              placeholder="your name"
+            />
+
+            <label for="email">_Email</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              required
+              placeholder="your email"
+            />
+
+            <label for="message">_Message</label>
+            <textarea
+              id="message"
+              name="message"
+              rows="6"
+              required
+              placeholder="type your message here..."
+            ></textarea>
+
+            <button type="submit">[SEND]</button>
+          </form>
+        </section>
+      </main>
+    </div>
+    <!--End Container-->
+    <!-- Start Footer-->
+    <footer>
+      <p>&copy;2025 Ava Ludwig</p>
+    </footer>
+    <!-- End Footer-->
+  </body>
+</html>

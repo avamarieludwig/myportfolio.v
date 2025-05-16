@@ -1,0 +1,50 @@
+@charset "utf-8";
+
+/* Stylings for Navbar */
+.navbar {
+  background-color: rgb(var(--red-rgb),.5);
+  padding: 5px 0;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 10vw;
+  font-family: var(--trio);
+  font-size: 2vw;
+    transition: text-shadow 0.3s ease;
+}
+
+.navbar li a {
+  text-decoration: none;
+  color: var(--white);
+  font-weight: bold;
+  padding: 8px 12px;
+  transition: background 0.2s ease;
+}
+
+.navbar li a:hover {
+  background-color: var(--black);
+  color:var(--blue);
+  text-shadow: 0 0 5px var(--red),
+               0 0 30px var(--white);
+cursor: url("../cursors/cursorblue.png"), auto;
+}
+
+
+/*  Responsive Nav*/
+@media (max-width: 768px) {
+
+.navbar ul {
+  gap: 4vw;
+  font-size: 2vh;
+
+}
+
+}
+
+

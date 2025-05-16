@@ -1,0 +1,16 @@
+@charset "utf-8";
+
+/*Colors Collect*/
+
+:root {
+    --red:#cd1519;
+    --red-rgb: 205, 21, 25;
+    --blue:#28e9ed;
+    --blue-rgb:40, 233, 237;
+    --white:#ededed;
+    --white-rgb:237, 237, 237;
+    --black:#0f1011;
+    --black-rgb:15, 16, 17;
+    --grey:#6a7b76;
+    --grey-rgb:106, 123, 118;
+}
